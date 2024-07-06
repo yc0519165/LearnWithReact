@@ -1,0 +1,21 @@
+
+.item{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input{
+  width: 100%;
+}
+.container{
+  text-align: left;
+}
+.rowitem{
+  margin-bottom: 10px;
+}
+.addbtn{
+  width: 72px;
+}
