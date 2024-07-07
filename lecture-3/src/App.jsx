@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 import FoodItem from "./component/FoodList";
@@ -25,7 +24,7 @@ function App() {
       
 {/* Passing Data via Props   */}
     </ul>
-    <h1>Fast Food</h1>
+    <h1 className="head">Fast Food</h1>
     <FoodItem></FoodItem>
   </>
 

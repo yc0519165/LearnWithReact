@@ -1,6 +1,7 @@
+import styles from "./FoodList.module.css"
 
 const FoodItem = () =>{
-  return     <ul className="list-group">
+  return     <ul className={`${styles[`FoodItem`]}`}>
   <li className="list-group-item">Burger</li>
   <li className="list-group-item">Pizza</li>
   <li className="list-group-item">PaniPuri</li>
