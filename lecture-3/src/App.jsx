@@ -19,11 +19,11 @@ function App() {
     <h1>Healthy Food</h1>
     <ul className="list-group">
       {foodItem.map((item)=>
-      <li key={item}className="list-group-item">{item}</li>
+        <li key={item}className="list-group-item">{item}</li>
       )}
       
 {/* Passing Data via Props   */}
-    </ul>
+</ul>
     <h1 className="head">Fast Food</h1>
     <FoodItem></FoodItem>
   </>
